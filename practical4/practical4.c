@@ -29,7 +29,7 @@ float traprule(){
         int i;
         area=TanArr[0]+TanArr[N];
         printf("\nInitial area (sum at x(0) and x(12) =%f\n",area);
-        for(i=i;i<N;i++){
+        for(i=1;i<N;i++){
                 area=area+2*TanArr[i];
         }
         printf("The value of sum after the loop is:%f\n",area);
