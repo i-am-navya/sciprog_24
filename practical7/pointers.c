@@ -32,7 +32,6 @@ void fillwithones(int *p, int n)
         p[i] = 1;
     }
 }
-
 void printarray(int *p, int n)
 {
     int i;

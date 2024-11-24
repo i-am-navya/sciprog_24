@@ -9,19 +9,16 @@ gcc gcd.c -o gcd1 -lm
 ./gcd1
 
 ## Output
-Positive test case:
+Please enter two positive integers:
+7
+4
+IterativeGCD(7, 4)=1
+RecursiveGCD(7, 4)=1
 
 Please enter two positive integers:
-10 8
-IterativeGCD(10, 8)=2
-RecursiveGCD(10, 8)=2
-
-Negative test case:
-
-Please enter two positive integers:
--9 9
+-7
+5
 Please enter positive integers!
-
 
 
 Navya Zacharia
