@@ -23,7 +23,7 @@ int main(void){
                 tan2[i]=arctanh2(x);
                 printf("The difference at x=%lf is %.10lf \n",x,fabs(tan1[i]-tan2[i]));
                 i++;
-                x+=0.1;
+                x+=0.01;
                 }
         return 0;
 }
