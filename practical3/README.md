@@ -9,12 +9,7 @@ gcc -o exc3 Excercise3.c -lm
 
 ./exc3
 
-The Sum is::1.732051
-The final value of sum is 0.695045
-The actual value is 0.693147
-absolute diff=0.001898
- rel_diff=0.002738
-
+The vale of sum is : 1.732051 The final value of the sum is: 0.695045 The actual value is: 0.693147 abs_diff = 0.001898 rel_diff = 0.002738
 
 
 

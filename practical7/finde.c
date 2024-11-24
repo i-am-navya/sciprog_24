@@ -9,7 +9,7 @@ int main()
     int i,order;
     double e, *terms;
 
-    printf("Please enter the order you wish to use\n");
+    printf("Enter the polynomial order\n");
     if(scanf("%d",&order) != 1){
         printf("Did not enter a number\n");
     }
@@ -34,7 +34,7 @@ int main()
 int factorial(int n){
     if (n<0)
     {
-        printf("You must use a positive number\n");
+        printf("Use a positive number!!!\n");
         return (-1);
     }
     else if(n==0)
