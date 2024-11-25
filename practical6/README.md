@@ -2,7 +2,7 @@
 
 # fib.c
 ## Compile
-gcc -o matmultC main.o mm.o
+gcc -o matmultC main.c mm.c
 
 ## Execute
 ./matmultC
